@@ -24,9 +24,9 @@ Hooks:PostHook(GroupAITweakData, "_init_unit_categories", "star_mayhem_init_unit
                 },
                 federales = {
                     Idstring("units/pd2_dlc_bex/characters/ene_swat_policia_federale_fbi/ene_swat_policia_federale_fbi")
-                },
-                access = access_type_all
-            }
+                }
+            },
+            access = access_type_all
         }
 
         self.unit_categories.GENSEC_G36 = {
@@ -45,9 +45,9 @@ Hooks:PostHook(GroupAITweakData, "_init_unit_categories", "star_mayhem_init_unit
                 },
                 federales = {
                     Idstring("units/pd2_dlc_bex/characters/ene_swat_policia_federale_city/ene_swat_policia_federale_city")
-                },
-                access = access_type_all
-            }
+                }
+            },
+            access = access_type_all
         }
 
         self.unit_categories.GENSEC_R870 = {
@@ -66,9 +66,9 @@ Hooks:PostHook(GroupAITweakData, "_init_unit_categories", "star_mayhem_init_unit
                 },
                 federales = {
                     Idstring("units/pd2_dlc_bex/characters/ene_swat_policia_federale_city_r870/ene_swat_policia_federale_city_r870")
-                },
-                access = access_type_all
-            }
+                }
+            },
+            access = access_type_all
         }
 
         self.unit_categories.GENSEC_M1014 = {
@@ -87,9 +87,9 @@ Hooks:PostHook(GroupAITweakData, "_init_unit_categories", "star_mayhem_init_unit
                 },
                 federales = {
                     Idstring("units/pd2_dlc_bex/characters/ene_swat_policia_federale_city_r870/ene_swat_policia_federale_city_r870")
-                },
-                access = access_type_all
-            }
+                }
+            },
+            access = access_type_all
         }
 
         self.unit_categories.FBI_heavy_G36 = {
