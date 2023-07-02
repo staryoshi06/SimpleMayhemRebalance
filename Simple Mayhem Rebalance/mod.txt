@@ -5,7 +5,7 @@
 	"contact" : "https://modworkshop.net/user/28039",
 	"version" : "1.0",
 	"blt_version": 2,
-	"priority" : "11",
+	"priority" : "10",
 	"hooks" :
 	[
 		{

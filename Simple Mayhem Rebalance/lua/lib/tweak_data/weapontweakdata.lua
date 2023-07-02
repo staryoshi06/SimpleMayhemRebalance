@@ -16,4 +16,6 @@ function WeaponTweakData:_set_easy_wish()
 	self.crate_turret_module.SHIELD_HEALTH_INIT = 700
 	self.crate_turret_module.DAMAGE = 3.5
 	self.crate_turret_module.CLIP_SIZE = 800
+	self.benelli_npc.usage = "is_shotgun_semi"
+	self.benelli_npc.DAMAGE = 3.75
 end

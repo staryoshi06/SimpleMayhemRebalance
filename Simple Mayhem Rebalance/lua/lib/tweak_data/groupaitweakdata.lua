@@ -165,6 +165,13 @@ Hooks:PostHook(GroupAITweakData, "_init_unit_categories", "star_mayhem_init_unit
 			},
 			access = access_type_all
 		}
+
+        -- recon task restored and expanded compat
+        if self.unit_categories.RECON_swat_smg then
+            self.unit_categories.RECON_swat_smg.unit_types.america = {
+                Idstring("units/payday2/characters/ene_city_swat_r870/ene_city_swat_r870")
+            }
+        end
     end
 end)
 
