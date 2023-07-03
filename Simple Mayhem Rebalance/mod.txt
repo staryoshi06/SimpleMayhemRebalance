@@ -20,6 +20,16 @@
 			"hook_id" : "lib/tweak_data/charactertweakdata",
 			"script_path" : "lua/lib/tweak_data/charactertweakdata.lua"
 		}
+	],
+	"updates" :
+	[
+		{
+			"identifier": "star_mayhem",
+            		"host":
+			{
+				"meta": ""
+			}
+		}
 	]
 
 }
