@@ -27,7 +27,7 @@
 			"identifier": "star_mayhem",
             		"host":
 			{
-				"meta": ""
+				"meta": "https://raw.githubusercontent.com/staryoshi06/SimpleMayhemRebalance/main/Simple%20Mayhem%20Rebalance/updates/meta.json"
 			}
 		}
 	]
