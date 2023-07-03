@@ -1,5 +1,6 @@
 Hooks:PostHook(CharacterTweakData, "_set_easy_wish", "star_mayhem_set_easy_wish", function(self)
     self:_multiply_all_hp(0.75, 1)
+    self.fbi_swat.damage.hurt_severity = self.presets.hurt_severities.light_hurt_fire_poison -- for murkywater and federales, who reuse fbi swat
 end)
 
 local old_presets = CharacterTweakData._presets

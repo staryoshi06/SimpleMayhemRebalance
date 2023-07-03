@@ -153,9 +153,9 @@ Hooks:PostHook(GroupAITweakData, "_init_unit_categories", "star_mayhem_init_unit
 					Idstring("units/pd2_dlc_hvh/characters/ene_bulldozer_hvh_3/ene_bulldozer_hvh_3")
 				},
 				murkywater = {
-					Idstring("units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_1/ene_murkywater_bulldozer_1"),
 					Idstring("units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_2/ene_murkywater_bulldozer_2"),
-					Idstring("units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_3/ene_murkywater_bulldozer_3")
+					Idstring("units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_3/ene_murkywater_bulldozer_3"),
+                    Idstring("units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_4/ene_murkywater_bulldozer_4")
 				},
 				federales = {
 					Idstring("units/pd2_dlc_bex/characters/ene_swat_dozer_policia_federale_r870/ene_swat_dozer_policia_federale_r870"),
@@ -167,8 +167,8 @@ Hooks:PostHook(GroupAITweakData, "_init_unit_categories", "star_mayhem_init_unit
 		}
 
         -- recon task restored and expanded compat
-        if self.unit_categories.RECON_swat_smg then
-            self.unit_categories.RECON_swat_smg.unit_types.america = {
+        if self.unit_categories.RECON_swat_shotty then
+            self.unit_categories.RECON_swat_shotty.unit_types.america = {
                 Idstring("units/payday2/characters/ene_city_swat_r870/ene_city_swat_r870")
             }
         end
@@ -435,15 +435,15 @@ Hooks:PostHook(GroupAITweakData, "_init_enemy_spawn_groups", "star_mayhem_init_e
                         rank = 3,
                         unit = "CS_tazer",
                         tactics = self._tactics.tazer_flanking
+                    },
+                    {
+                        amount_min = 2,
+                        freq = 2,
+                        amount_max = 2,
+                        rank = 2,
+                        unit = "GENSEC_UMP45",
+                        tactics = self._tactics.tazer_charge
                     }
-                },
-                {
-                    amount_min = 2,
-                    freq = 2,
-                    amount_max = 2,
-                    rank = 2,
-                    unit = "GENSEC_UMP45",
-                    tactics = self._tactics.tazer_charge
                 }
             }
         end
@@ -462,15 +462,15 @@ Hooks:PostHook(GroupAITweakData, "_init_enemy_spawn_groups", "star_mayhem_init_e
                         rank = 3,
                         unit = "CS_tazer",
                         tactics = self._tactics.tazer_charge
+                    },
+                    {
+                        amount_min = 2,
+                        freq = 2,
+                        amount_max = 2,
+                        rank = 2,
+                        unit = "GENSEC_UMP45",
+                        tactics = self._tactics.tazer_charge
                     }
-                },
-                {
-                    amount_min = 2,
-                    freq = 2,
-                    amount_max = 2,
-                    rank = 2,
-                    unit = "GENSEC_UMP45",
-                    tactics = self._tactics.tazer_charge
                 }
             }
         end
